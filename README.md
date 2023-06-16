@@ -19,11 +19,17 @@ Python and Postgres should be installed and set up on the device that is going t
 
 3. For Windows:
       - Open the extracted folder in Command Prompt or Powershell
+      - `pip install virtualenv`
+      - `virtualenv venv`
       - `./venv/Scripts/activate`
+      - `pip install -r requirements.txt`
       - `python application.py`
       
    For Unix Systems:
       - Open the extracted folder in Terminal
+      - `pip install virtualenv`
+      - `virtualenv venv`
       - `source venv/bin/activate`
+      - `pip install -r requirements.txt`
       - `python application.py`
       
